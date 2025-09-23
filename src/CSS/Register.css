@@ -1,0 +1,104 @@
+/* Register.css */
+
+body {
+    font-family: "Poppins", sans-serif;
+    background: linear-gradient(135deg, #74ebd5, #acb6e5);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .card {
+    background: #fff;
+    padding: 35px;
+    border-radius: 14px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+    width: 400px;
+    animation: fadeIn 0.8s ease-in-out;
+    border: 1px solid #f0f0f0;
+  }
+  
+  .card h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #222;
+    font-weight: 600;
+    font-size: 22px;
+  }
+  
+  label {
+    font-size: 14px;
+    font-weight: 500;
+    color: #444;
+    display: block;
+    margin-bottom: 6px;
+  }
+  
+  .input-field {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 14px;
+    background: #f9f9ff;
+    transition: 0.3s ease;
+  }
+  
+  .input-field:focus {
+    border-color: #6c5ce7;
+    background: #fff;
+    box-shadow: 0 0 8px rgba(108, 92, 231, 0.35);
+    outline: none;
+  }
+  
+  .input-field:hover {
+    border-color: #999;
+  }
+  
+  .btn {
+    width: 100%;
+    padding: 12px;
+    background: linear-gradient(to right, #6c5ce7, #341f97);
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 15px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(52, 31, 151, 0.3);
+  }
+  
+  .message-box {
+    margin-top: 18px;
+    text-align: center;
+    font-size: 14px;
+    color: #555;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-15px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .card {
+      width: 90%;
+      padding: 25px;
+    }
+  }
+  
