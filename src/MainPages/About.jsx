@@ -8,7 +8,7 @@ const About = () => {
         
         <div className="col-lg-6 mb-4 mb-lg-0">
           <div className="about-image">
-            <img src="" alt="About Us" className="img-fluid rounded shadow" />
+            <img src="https://picsum.photos/1200/500?random=3" alt="About Us" className="img-fluid rounded shadow" />
           </div>
         </div>        
         <div className="col-lg-6">

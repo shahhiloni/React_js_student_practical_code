@@ -1,16 +1,21 @@
 .custom-navbar {
-  background: linear-gradient(135deg, #74ebd5, #acb6e5); 
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  position: fixed;   
+  top: 0;
+  left: 0;
+  width: 100%;      
+  margin: 0;        
+  border-radius: 0;  
+  z-index: 1000;
+  background: linear-gradient(135deg, #74ebd5, #acb6e5);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15);
   padding: 0.8rem 1rem;
-  border-radius: 0 0 10px 10px;
-  background: red !important; 
 }
 
 .navbar-brand {
   font-family: 'Poppins', sans-serif;
   font-weight: 700;
   font-size: 1.5rem;
-  color: #fff !important;
+  color: #333 !important;
   transition: color 0.3s ease;
 }
 
@@ -21,8 +26,9 @@
 .navbar-nav .nav-link {
   font-family: 'Poppins', sans-serif;
   font-weight: 500;
-  color: #fff !important;
-  margin-right: 0.5rem;
+  font-size: 20px;
+  color: #333 !important;
+  margin-right: 0.8rem;
   transition: color 0.3s ease;
 }
 
@@ -54,11 +60,13 @@
 
 @media (max-width: 991px) {
   .navbar-nav {
-      background: linear-gradient(135deg, #74ebd5, #acb6e5);
-      padding: 1rem;
-      border-radius: 0 0 10px 10px;
+    background: linear-gradient(135deg, #74ebd5, #acb6e5);
+    padding: 1rem;
+    border-radius: 0 0 10px 10px;
   }
   .navbar-nav .nav-item {
-      margin-bottom: 0.5rem;
+    margin-bottom: 0.5rem;
   }
 }
+
+
