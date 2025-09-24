@@ -16,14 +16,12 @@ const Contact = () => {
         type="email"
         name="email"
         placeholder="Enter Email Address"
-       
       />
 
       <input
         type="tel"
         name="contact"
         placeholder="Enter Contact Number"
-       
       />
 
 <textarea

@@ -4,6 +4,7 @@ import "../CSS/Register.css"
 const Login = () => {
   return (
     <>
+    
       <div className="card">
         <h2 className="text-3xl font-bold text-center mb-6 text-gray-800">Login</h2>
         <form id="loginForm" className="space-y-4">
