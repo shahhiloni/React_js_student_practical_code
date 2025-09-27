@@ -27,6 +27,8 @@ import Effect from './HOOKS/Effect';
 import FetchApi_effect from './HOOKS/FetchApi_effect';
 import LifeCycleMethod from './HOOKS/lifeCycleMethod';
 import Lifecycle_Method_Timer from './HOOKS/lifecycle_method_timer';
+import Props from "./HOOKS/Props";
+import PropsDrilling from "./HOOKS/PropsDrilling";
 
 
 const App = () => {
@@ -59,6 +61,8 @@ const App = () => {
 <Route path="/block" element={<State />} />
 <Route path="/lifecycle" element={<LifeCycleMethod />} />
 <Route path="/lifecycle_timer" element={<Lifecycle_Method_Timer />} />
+<Route path="/props" element={<Props />} />
+<Route path="/props-drill" element={<PropsDrilling />} />
 
    </Routes>
    </BrowserRouter>

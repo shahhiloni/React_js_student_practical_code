@@ -1,6 +1,3 @@
-// useState :  
-
-
 import React, {useState} from 'react'
 const Block = () => {
 const [count, setCount] = useState(0);

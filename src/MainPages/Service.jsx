@@ -1,7 +1,8 @@
 import React from 'react';
 import "../CSS/Service.css";
+import { NavLink } from 'react-router-dom';
 
-const ServiceCards = () => {
+const Service = () => {
   const services = [
     {
       id: 1,
@@ -18,15 +19,11 @@ const ServiceCards = () => {
       title: 'Product Strategy',
       description: 'Roadmaps, metrics and growth experiments to scale your product.',
     },
-    {
-      id: 4,
-      title: 'Security Audit',
-      description: 'Pen-tests, threat modeling and robust security best-practices.',
-    },
+   
   ];
 
   return (
-    <div className="container py-5">
+    <div className="container-fluid pt-1 py-5">
       <h2 className="text-center mb-4">Our Services</h2>
       <div className="row">
         {services.map((service) => (
@@ -35,7 +32,7 @@ const ServiceCards = () => {
               <div className="card-body">
                 <h5 className="card-title">{service.title}</h5>
                 <p className="card-text">{service.description}</p>
-                <a href="#" className="btn btn-primary">Learn More</a>
+                <NavLink to="/" className="btn btn-primary">Learn More</NavLink>
               </div>
             </div>
           </div>
@@ -45,4 +42,4 @@ const ServiceCards = () => {
   );
 };
 
-export default ServiceCards;
+export default Service;
