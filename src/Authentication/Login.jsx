@@ -8,6 +8,7 @@ const Login = () => {
   const handleLogin = (e) => {
     e.preventDefault();
 navigate("/");
+
   }
   return (
     <div className="card">
