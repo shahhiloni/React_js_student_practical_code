@@ -32,6 +32,7 @@ import PropsDrilling from "./HOOKS/PropsDrilling";
 import Context from "./HOOKS/Context";
 import { ThemeProvider } from './HOOKS/Theme';
 import { ThemeComponent } from './HOOKS/ThemeComponent';
+import Ref from "./HOOKS/Ref";
 
 const App = () => {
   return (
@@ -67,7 +68,7 @@ const App = () => {
           <Route path="/props" element={<Props />} />
           <Route path="/props-drill" element={<PropsDrilling />} />
           <Route path="/context" element={<Context />} />
-        
+        <Route path="/ref" element={<Ref />} />
         
         </Routes>
       </BrowserRouter>
