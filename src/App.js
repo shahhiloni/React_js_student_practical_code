@@ -33,6 +33,7 @@ import Context from "./HOOKS/Context";
 import { ThemeProvider } from './HOOKS/Theme';
 import { ThemeComponent } from './HOOKS/ThemeComponent';
 import Ref from "./HOOKS/Ref";
+import LayoutEffect from './HOOKS/LayoutEffect';
 
 const App = () => {
   return (
@@ -69,6 +70,7 @@ const App = () => {
           <Route path="/props-drill" element={<PropsDrilling />} />
           <Route path="/context" element={<Context />} />
         <Route path="/ref" element={<Ref />} />
+        <Route path="/layout-effect" element={<LayoutEffect />} />
         
         </Routes>
       </BrowserRouter>

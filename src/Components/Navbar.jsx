@@ -1,8 +1,12 @@
-import React from 'react'
-import { NavLink } from 'react-router-dom'
+import React, {useEffect} from 'react'
+import { NavLink, useLocation } from 'react-router-dom'
 import "../CSS/Navbar.css";
 
 const Navbar = () => {
+        let location = useLocation();
+        useEffect(() => {
+            console.log(location.pathname);
+        }, [location])
 return (
 <div>
    <nav className="navbar navbar-expand-lg navbar-light bg-light"> 
