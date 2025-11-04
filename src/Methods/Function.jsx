@@ -1,9 +1,4 @@
-// function method 
 
-// normal function 
-
-
-// arrow function
 import React from 'react'
 
 const Function = () => {

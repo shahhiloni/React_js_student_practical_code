@@ -3,7 +3,6 @@ import {useTheme} from "./Theme";
 export function ThemeComponent(){
     const{theme, toggleTheme} = useTheme();
 
-
     const Style = {
         background: theme === "light" ? "white" : "black",
         color: theme === "light" ? "black" :"white",

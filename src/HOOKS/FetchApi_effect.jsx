@@ -10,7 +10,6 @@ const[data, setData] = useState(null);
 // why we need useEffect in function component
 // - useEffect used for re-render data without useEffect we can't re-render the data and phase error-prone
 
-
 // How does use Effect works?
 // - use Effect accept 2 effects
 
@@ -19,7 +18,7 @@ const[data, setData] = useState(null);
 
 // what is dependency and array and how it works 
 // 1. empty array:  the effect only once, when the component is mounted 
-//2. with dependency: the effect runs whenever the specified dependency change or update 
+// 2. with dependency: the effect runs whenever the specified dependency change or update 
 // 3. no array: effect runs after every render
 
 useEffect(() => {

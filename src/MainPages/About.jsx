@@ -2,6 +2,7 @@ import React from "react";
 import "../CSS/About.css";
 
 const About = () => {
+
   return (
     <div className="about-page container my-5">
       <div className="row align-items-center">
