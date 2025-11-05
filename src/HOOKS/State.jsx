@@ -9,6 +9,7 @@ setCount(count + 1);
 const Minus = () => {
 setCount (count - 1);
 }
+
 return (
 <div>
     <h3> useState hook method </h3>
@@ -20,3 +21,4 @@ return (
 }
 
 export default Block
+

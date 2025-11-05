@@ -1,4 +1,5 @@
 import React from "react";
+
 // child component 
 function Student(props) {
 return (
