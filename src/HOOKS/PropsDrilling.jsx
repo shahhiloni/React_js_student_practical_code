@@ -1,20 +1,19 @@
 import React from 'react'
 
 const PropsDrilling = () => {
-    function GrandChild({name}){
-        return <h2> Hello, {name} </h2>
-            }
-        
-            function Child({name}) {
-        return <GrandChild name={name} />
-            }
-        
-            function Parent(){
-        return <Child name="xyz" />
-            }
+  function GrandChild({name}){
+return <h2> Hello, {name}</h2>
+  }
+  function Child({name}){
+return <GrandChild name={name} />
+  }
+  function Parent(){
+return <Child name="xyz" />
+  }
+
   return (
     <div>
-      <Parent />
+    <Parent />
     </div>
   )
 }
