@@ -12,3 +12,10 @@ return(
 }
 
 export default Class
+
+
+// life cycle Method 
+// 1. Mounting 
+// 2. mount Update 
+// 3. unMount 
+

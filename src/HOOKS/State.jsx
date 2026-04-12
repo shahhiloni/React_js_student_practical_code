@@ -21,4 +21,3 @@ return (
 }
 
 export default Block
-

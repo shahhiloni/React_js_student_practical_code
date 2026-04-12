@@ -1,9 +1,11 @@
 import React from "react";
 import "../CSS/Home.css";
+import Layout from "../Components/Layout";
 
 const Home = () => {
 return (
 <>
+<Layout />
   <div class="home-page">
   <div id="carouselExampleIndicators" class="carousel slide">
   <div class="carousel-indicators">

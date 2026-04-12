@@ -78,38 +78,3 @@
 // // // export default LifeCycle
 
 
-// import React, { Component } from 'react'
-
-// export default class lifeCycleMethod extends Component {
-//     constructor(){
-//         super()
-//         console.log("constructor has being started")
-//         this.state = {count: 0}
-//     }
-
-//     componentDidUpdate(prevState, prevProps){
-// console.log("componentDidUpdate: has been changed or updated")
-// console.log("prevState:", prevState)
-// console.log("currentState", this.state)
-
-
-// if(prevState.count !== this.state.count){
-//     console.log(`component changed from ${prevState.count} to ${this.state.count}`)
-// }
-
-// Increment = () => {
-//     this.setState = ({count: this.state.count + 1})
-// }
-
-// Decrement = () => {
-//     this.setState = ({count: this.state.count - 1})
-// }
-//     }
-//   render() {
-//     return (
-//       <div>
-        
-//       </div>
-//     )
-//   }
-// }
